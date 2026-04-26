@@ -76,6 +76,7 @@ class Chainblok:
         """Normalizes code by removing comments for the AST heuristic."""
         print("[*] Parsing AST and normalizing code...")
         self.clean_code = re.sub(r'/\*.*?\*/', '', re.sub(r'//.*', '', self.raw_code), flags=re.DOTALL)
+        # print(self.clean_code)
 
     def get_line_number(self, index: int) -> int:
         """Utility for analysis rules to map regex matches to line numbers."""

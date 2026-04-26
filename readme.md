@@ -46,6 +46,8 @@ python cmd.main <URL> --api-key <OPTIONAL_API_KEY>
 ```
 
 **Example 1: Auditing a deployed contract (Highly recommended to use an API key to avoid rate limits)**
+you need to generate API Key first here [https://etherscan.io/apidashboard](https://etherscan.io/apidashboard)
+
 ```bash
 python cmd.main https://etherscan.io/address/0x1f9840a85d5af5bf1d1762f925bdaddc4201f984 --api-key YOUR_ETHERSCAN_V2_API_KEY
 ```
