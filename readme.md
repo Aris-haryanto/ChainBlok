@@ -45,7 +45,8 @@ ChainBlok is executed entirely via the command line interface.
 python cmd.main <URL> --api-key <OPTIONAL_API_KEY>
 ```
 
-**Example 1: Auditing a deployed contract (Highly recommended to use an API key to avoid rate limits)**
+**Example 1: Auditing a deployed contract**
+
 you need to generate API Key first here [https://etherscan.io/apidashboard](https://etherscan.io/apidashboard)
 
 ```bash
